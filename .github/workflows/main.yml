@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+  -name: setup-docker
+  uses: docker-practice/actions-setup-docker@0.0.1
+  with:
+    # Docker Version
+    docker_version: # optional, default is 19.03
+    # Docker Channel
+    docker_channel: # optional, default is stable
