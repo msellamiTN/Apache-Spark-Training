@@ -3,4 +3,4 @@ EPI GROUP
 EPI POLY
 EPI SOUSSE Big Data
 EPI SOUSSE SPARK Training
-EPI SOUSSE Big Data Training 
+EPI SOUSSE Big Data Training
